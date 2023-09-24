@@ -13,6 +13,15 @@ A cél tehát egy olyan hírportál létrehozása, amely ötvözi a megbízható
 ## 3. Vágyálomrendszer
 
 ## 4. Jelenlegi üzleti folyamatok modellje
+4.1. Hírek Gyűjtése és Közzététele
+Felelős: Szerkesztők, Riporterek
+Folyamat: Szerkesztők és riporterek gyűjtik és formázzák a híreket, majd közzéteszik azokat a weboldalon.
+4.2. Felhasználói Interakció és Közösség
+Felelős: Felhasználók, Moderátorok
+Folyamat: Felhasználók hozzászólnak és megosztják véleményüket, melyet moderátorok ellenőriznek.
+4.3. Mélyebb Elemzések
+Felelős: Elemzők, Írók
+Folyamat: Elemzők és írók készítenek mélyebb elemzéseket és cikkeket a fontos témákról.
 
 ## 5. Igényelt üzleti folyamatok modellje
 
