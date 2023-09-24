@@ -1,17 +1,15 @@
 # Követelmény specifikáció
 
 ## 1. Áttekintés
-    
+A tájékozódás és informálódás napjainkban egyre inkább az online térbe költözik, és egyre többen keresik a friss híreket és információkat online forrásokból. Ennek megfelelően egy olyan hírportál létrehozása a cél, amely aktuális, releváns és megbízható hírekkel szolgál a felhasználók számára. A portál egy központi platformot kínál a legfrissebb hazai és nemzetközi hírekkel, eseményekkel, véleményekkel és elemzésekkel, valamint egy olyan közösségi platformot is biztosít, ahol a felhasználók hozzászólhatnak és megoszthatják véleményüket.
 
 ## 2. A jelenlegi helyzet leírása
 
-Szenvedélyünk mindig is az volt, hogy megbízható és kiegyensúlyozott híreket nyújtsunk az embereknek. Ezért döntöttünk úgy, hogy saját hírportált hozunk létre. Az újságírás és az információ hatalma mindig is minket izgatott, és hiszünk abban, hogy mindenkihez eljuttathatunk értékes, objektív és hiteles híreket.
+A hírek és információk keresésének folyamata jelenleg fragmentált. Számos hírforrás, blog és weboldal kínálja saját tartalmát, de nincs olyan központosított platform, amely átfogó képet adna a legfontosabb hírekről és eseményekről. Bár néhány nagyobb hírportál és médiafelület létezik, sokan azokat politikailag elfogultnak vagy nem eléggé részletesnek tartják. Emellett a hozzászólások és a felhasználói interakció gyakran korlátozott vagy nem megfelelően moderált, ami negatívan befolyásolhatja a közösségi élményt és a felhasználói megbízhatóságot.
+Sokan a közösségi média oldalakon keresztül próbálnak informálódni, azonban ezek az oldalak gyakran nem kínálnak mélyebb elemzéseket vagy kontextust a hírekhez, valamint az algoritmusok befolyásolják azt, hogy milyen hírek jelennek meg a felhasználók előtt.
+A hírekhoz való könnyű és gyors hozzáférés mellett a felhasználók egyre nagyobb hangsúlyt fektetnek a megbízhatóságra és a tartalom hitelességére, amit jelenleg kevés platform tud teljes mértékben biztosítani.
+A cél tehát egy olyan hírportál létrehozása, amely ötvözi a megbízhatóságot, a központosított hírszolgáltatást és a felhasználói interakciót, miközben kiváló felhasználói élményt biztosít.
 
-A saját hírportálunk lehetőséget kínál arra, hogy átlátható és megbízható forrásból értesüljenek az emberek a fontos eseményekről. Az objektív híradás és az átláthatóság kulcsfontosságúak a közösség építésében és az információ terjesztésében.
-
-Ezenkívül lehetőséget szeretnénk adni fiatal újságíróknak és íróknak, hogy kreativitásukat és tehetségüket kibontakoztathassák, és így hozzájárulhassanak a társadalom tájékoztatásához.
-
-Az általunk létrehozott hírportál álma a minőségi újságírás és az információ szabadsága iránti elkötelezettség, amely segít az embereknek a világ eseményeinek mélyebb megértésében és tudatos döntések meghozatalában.
 ## 3. Vágyálomrendszer
 
 ## 4. Jelenlegi üzleti folyamatok modellje
