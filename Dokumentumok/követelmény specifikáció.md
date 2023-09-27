@@ -11,6 +11,8 @@ A hírekhoz való könnyű és gyors hozzáférés mellett a felhasználók egyr
 A cél tehát egy olyan hírportál létrehozása, amely ötvözi a megbízhatóságot, a központosított hírszolgáltatást és a felhasználói interakciót, miközben kiváló felhasználói élményt biztosít.
 
 ## 3. Vágyálomrendszer
+ Nem csak egy passzív olvasói élményt nyújt. Szeretnénk, ha aktívan részt vennének a hírek és információk terjesztésében és megvitatásában. Minden egyes látogató számít számunkra, és mi segítünk abban, hogy könnyen megossza véleményét és tapasztalatait.
+ A hírportál célja, hogy hozzáférést biztosítson az információkhoz, hogy Ön is hatékonyan formálhassa véleményét és döntéseit, továbbá  szeretnénk ha nálunk találnák meg a friss és releváns információkat minden olyan területen, ami fontos. Legyen az a legújabb helyi hír, a globális események, tudományos felfedezések, vagy éppen a legújabb technológiai újdonságok
 
 ## 4. Jelenlegi üzleti folyamatok modellje
 4.1. Hírek Gyűjtése és Közzététele
