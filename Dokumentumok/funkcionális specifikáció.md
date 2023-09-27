@@ -14,8 +14,11 @@ A hírek és kommentek publikusan megtekinthetők minden látogató számára. M
 ## 5. Követelménylista
 
 | Id | Modul | Név | Leírás |
-| :---: | --- | --- | --- |
-| K1 | ...| ... | ... |
+| K1 | Felület | Comment | A felhasználók megtudják osztani gondoltaikat egy cikk vagy poszt alatt.|
+| K2 | Jogosultság| Bejelentkezési felület|A felhasználó az email címe és a jelszava segítségével bejelentkezhet. Az adatbázisban eltárolt jelszóval és felhasználónével ellentétben rossz adatérkezik a rendszer tájékoztat a sikertelen bejelntkezésről. |
+| K3 | Jogosultság | Regisztráció |A felhasználó a felhasználói nevének, email címének és jelszavának megadásával regisztrálja magát.Ha hibás adatokat visszbe arról a rendszer tajákoztatást ad egy hibaüzenet képében.|
+| K4 | Jogosultság| Jogosultsági szintek| -Admin:Rendszerhozzáférés, hírek feltöltése, felhasználók / szerepkörök módósítása. -Felhasználó: Cikkek böngészése kommentelés.|
+| K5 | Modifikáció | Jelszó modosítás | A felhasználó módosítani tudja saját jelszavát.|
 
 ## 6. Használati esetek
 
