@@ -30,8 +30,11 @@ Folyamat: Elemzők és írók készítenek mélyebb elemzéseket és cikkeket a 
 ## 6. Követelménylista
 
 | Id | Modul | Név | Leírás |
-| :---: | --- | --- | --- |
-| K1 | ... | ... | ... |
+| K1 | Felület | Comment | A felhasználók megtudják osztani gondoltaikat egy cikk vagy poszt alatt.|
+| K2 | Jogosultság| Bejelentkezési felület|A felhasználó az email címe és a jelszava segítségével bejelentkezhet.|
+| K3 | Jogosultság | Regisztráció |A felhasználó a felhasználói nevének, email címének és jelszavának megadásával regisztrálja magát.|
+| K4 | Jogosultság| Jogosultsági szintek| -Admin:Rendszerhozzáférés, hírek feltöltése, felhasználók / szerepkörök módósítása. -Felhasználó: Cikkek böngészése, kommentelés.|
+| K5 | Modifikáció | Jelszó modosítás | A felhasználó módosítani tudja saját jelszavát.|
 
 ## 7. Fogalomtár
 Reszponzív felület - Mobilon, Tableten, PC-n igazodik a
