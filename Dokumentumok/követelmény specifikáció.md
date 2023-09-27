@@ -34,3 +34,7 @@ Folyamat: Elemzők és írók készítenek mélyebb elemzéseket és cikkeket a 
 | K1 | ... | ... | ... |
 
 ## 7. Fogalomtár
+Reszponzív felület - Mobilon, Tableten, PC-n igazodik a
+képernyőhöz a felület mérete, azaz több eszközön is probléma nélkül
+üzemelhet.
+Comment - rövid írásos kifejezés, amelyet egy személy vagy több személy ír, mond vagy oszt meg egy online vagy offline közegben, hogy kifejezze véleményét, észrevételeit vagy gondolatait egy adott témával, cikkel, poszttal vagy eseménnyel kapcsolatban.
