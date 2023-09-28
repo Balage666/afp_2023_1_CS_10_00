@@ -27,28 +27,27 @@ A hírek és kommentek publikusan megtekinthetők minden látogató számára. M
 ## 4. Igényelt üzleti folyamatok modellje
  - 4.1. Hírek Gyűjtése és Közzététele
      - Funkció: Hírek gyűjtése és közzététele a felhasználók számára.
-     - Felelős: Szerkesztők, Riporterek
-     - A szerkesztők és riporterek híreket gyűjtenek különböző forrásokból, majd szerkesztik és formázzák azokat a weboldalon való közzététel céljából. Az alkalmazás automatikusan frissíti a híreket a különböző forrásokból.
+     - Felelős: Adminok
+     - Adminok híreket gyűjtenek különböző forrásokból, majd szerkesztik és formázzák azokat a weboldalon való közzététel céljából. Az alkalmazás automatikusan frissíti a híreket a különböző forrásokból.
  - 4.2. Felhasználói Interakció és Közösség
      - Funkció: Felhasználói vélemények megosztása és moderáció.
      - Felelős: Felhasználók, Adminok
      - A felhasználók lehetőséget kapnak a hírek alatti hozzászólások írására és véleményük megosztására. A adminok felelősek a hozzászólások azonnali ellenőrzéséért és moderálásáért annak érdekében, hogy biztosítsák a tartalom minőségét és a szabályszegések elkerülését.
  - 4.3. Mélyebb Elemzések és Cikkek
      - Funkció: Mélyebb elemzések és cikkek készítése.
-     - Felelős: Elemzők, Írók
-     - Az elemzők és írók speciális cikkeket és mélyebb elemzéseket készítenek a fontos témákról. Az alkalmazás kiemeli ezeket a cikkeket a főoldalon és a releváns kategóriákban.
+     - Felelős: Admin     
  - 4.4. Felhasználói Felület és Testreszabhatóság
      - Funkció: Testreszabható felhasználói felület és preferenciák.
      - Felelős: Felhasználók
      - A felhasználók testreszabhatják a felületet az egyéni preferenciáiknak megfelelően. Választhatnak kedvenc témákat, beállíthatnak értesítéseket és követhetnek szerzőket a személyre szabott felhasználói élmény érdekében.
  - 4.5. Tartalom Minőségellenőrzés és Hibakezelés
      - Funkció: Tartalom minőségellenőrzés és hibakezelés.
-     - Felelős: Adminok, Adminisztrátorok
-     - Adminok folyamatosan ellenőrzik a tartalmat a szabályoknak megfelelően. Hibák esetén az adminisztrátorok gyorsan beavatkoznak és javítják azokat.
+     - Felelős: Adminok
+     - Adminok folyamatosan ellenőrzik a tartalmat a szabályoknak megfelelően.
  - 4.6. Adatgyűjtés és Felhasználói Visszajelzés
      - Funkció: Adatgyűjtés és felhasználói visszajelzés elemzése.
-     - Felelős: Felhasználók, Elemzők
-     - Az alkalmazás gyűjti az adatokat a felhasználók viselkedéséről és visszajelzéseiről. Az elemzők használják ezeket az adatokat a felület és a tartalom fejlesztéséhez.
+     - Felelős: Felhasználók
+     - Az alkalmazás gyűjti az adatokat a felhasználók viselkedéséről és visszajelzéseiről.
  - 4.7. Személyre Szabott Tartalom Ajánlások
      - Funkció: Személyre szabott tartalomajánlások.
      - Felelős: Algoritmusok
