@@ -56,6 +56,15 @@ A felhasználó hiteles és aktuális hírekről kapjon részletes információk
 ## 5. Funkcionális terv
 
 ### 5.1 Rendszerszereplők
+ - Admin
+    - Teljes hozzáférés a rendszerhez
+    - Felhasználó tevékenységek felügyelése
+    - Felhasználók törlése
+    - Hírek létrehozása, törlése
+
+ - Felhasználó
+    - Hírek megtekintése
+    - Visszajelzések küldése
 
 ### 5.2 Menühierarchiák
 
