@@ -1,17 +1,18 @@
 # Rendszerterv
 ## 1. A rendszer célja
+A felhasználó hiteles és aktuális hírekről kapjon részletes információkat, mindezt átláthatóan és kidolgozottan. Bármilyen eszköről és böngészőről elérhető webalkalmazás.
   
 ## 2. Projektterv
 
 ### 2.1 Projektszerepkörök, felelőségek:
-   * Scrum masters: 
-   * Product owner: 
-   * Üzleti szereplő:
+   * Scrum masters: Karácsony Balázs  
+   * Product owner: Tajti Tibor
+   * Üzleti szereplő: Tajti Tibor
      
 ### 2.2 Projektmunkások és felelőségek:
-   * Frontend: 
-   * Backend: 
-   * Tesztelés: 
+   * Frontend: Jaczina Norbert, Pál Joci
+   * Backend: Kinczel Ádám
+   * Tesztelés: Nagy Kristóf
      
 ### 2.3 Ütemterv:
 
