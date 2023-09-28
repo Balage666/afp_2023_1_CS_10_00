@@ -26,6 +26,27 @@ Felelős: Elemzők, Írók
 Folyamat: Elemzők és írók készítenek mélyebb elemzéseket és cikkeket a fontos témákról.
 
 ## 5. Igényelt üzleti folyamatok modellje
+5.1. Hírek Gyűjtése és Közzététele
+Felelős: Szerkesztők, Riporterek
+Folyamat: Szerkesztők és riporterek gyűjtik és formázzák a híreket, majd közzéteszik azokat a weboldalon. Emellett az alkalmazás automatikusan frissíti a híreket a különböző forrásokból.
+5.2. Felhasználói Interakció és Közösség
+Felelős: Felhasználók, Moderátorok
+Folyamat: Felhasználók hozzászólnak és megosztják véleményüket a hírek alatt. Moderátorok azonnal ellenőrzik és kezelik a hozzászólásokat, hogy biztosítsák a tartalom minőségét és a trollkodás vagy szabályszegések elkerülését.
+5.3. Mélyebb Elemzések és Cikkek
+Felelős: Elemzők, Írók
+Folyamat: Elemzők és írók mélyebb elemzéseket és cikkeket készítenek a fontos témákról. Az alkalmazás kiemeli ezeket a cikkeket a főoldalon és a releváns kategóriákban.
+5.4. Felhasználói Felület és Testreszabhatóság
+Felelős: Felhasználók
+Folyamat: A felhasználók testreszabhatják a felületet, hogy az megfeleljen az egyéni preferenciáiknak, például választhatnak kedvenc témákat, beállíthatnak értesítéseket és következhetnek szerzőket.
+5.5. Tartalom Minőségellenőrzés és Hibakezelés
+Felelős: Moderátorok, Adminisztrátorok
+Folyamat: Moderátorok folyamatosan ellenőrzik a tartalmat a szabályoknak megfelelően. Hibák esetén az adminisztrátorok gyorsan beavatkoznak és javítják azokat.
+5.6. Adatgyűjtés és Felhasználói Visszajelzés
+Felelős: Felhasználók, Elemzők
+Folyamat: Az alkalmazás gyűjti az adatokat a felhasználók viselkedéséről és visszajelzéseiről, majd ezeket az adatokat elemzők használják a felület és a tartalom fejlesztéséhez.
+5.7. Személyre Szabott Tartalom Ajánlások
+Felelős: Algoritmusok
+Folyamat: Az alkalmazás személyre szabott tartalomajánlásokat nyújt a felhasználóknak az alapján, hogy milyen híreket olvastak korábban és milyen témák érdeklik őket.
 
 ## 6. Követelménylista
 

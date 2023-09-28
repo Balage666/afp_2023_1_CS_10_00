@@ -8,8 +8,56 @@ Az alkalmazás adminisztrátorai képesek a hírek publikálására és a kommen
 
 A hírek és kommentek publikusan megtekinthetők minden látogató számára. Minden hírnek megjelenik a címe, egy rövid leírása, a publikálás dátuma és a hírt író szerző neve. A hírek alatt pedig helyet kapnak a hozzájuk tartozó kommentek, amelyek a közösségi interakciót és véleménynyilvánítást támogatják az adott hírekkel kapcsolatban.
 ## 3. Jelenlegi üzleti folyamatok modellje
+3.1. Hírek Kezelése
+Felhasználók böngészhetnek és keresgélhetnek hírekhez.
+Szerkesztők és riporterek gyűjtenek, szerkesztenek és közzétesznek híreket.
+3.2. Felhasználói Interakció és Moderáció
+Felhasználók megoszthatják véleményüket a hírek alatt.
+Moderátorok ellenőrzik és kezelik a felhasználói hozzászólásokat.
+3.3. Mélyebb Elemzések és Cikkek
+Elemzők és írók mélyebb elemzéseket és cikkeket készítenek.
+3.4. Felhasználói Felület és Regisztráció
+Felhasználók regisztrálhatnak és bejelentkezhetnek.
+Felhasználói felület lehetővé teszi a hírek böngészését és a vélemények megosztását.
+3.5. Tartalomkezelés és Adatbázis
+Hatékony tartalomkezelési rendszerrel és adatbázissal rendelkezik az új hírek és cikkek kezeléséhez.
+3.6. Biztonság és Hibakezelés
+Megfelelő biztonsági intézkedéseket alkalmaz az adatok védelme érdekében.
+Hibakezelési mechanizmusokat tartalmaz a problémák kezeléséhez.
+3.7. Teljesítmény és Skálázhatóság
+Jó teljesítményt nyújt, és skálázható a növekvő felhasználói forgalomhoz.
+3.8. Riportolás és Elemzés
+Riportolási és elemzési eszközökkel rendelkezik az üzleti folyamatok figyelemmel kíséréséhez és értékeléséhez.
 
 ## 4. Igényelt üzleti folyamatok modellje
+4.1. Hírek Gyűjtése és Közzététele
+Funkció: Hírek gyűjtése és közzététele a felhasználók számára.
+Felelős: Szerkesztők, Riporterek
+A szerkesztők és riporterek híreket gyűjtenek különböző forrásokból, majd szerkesztik és formázzák azokat a weboldalon való közzététel céljából. Az alkalmazás automatikusan frissíti a híreket a különböző forrásokból.
+4.2. Felhasználói Interakció és Közösség
+Funkció: Felhasználói vélemények megosztása és moderáció.
+Felelős: Felhasználók, Moderátorok
+A felhasználók lehetőséget kapnak a hírek alatti hozzászólások írására és véleményük megosztására. A moderátorok felelősek a hozzászólások azonnali ellenőrzéséért és moderálásáért annak érdekében, hogy biztosítsák a tartalom minőségét és a szabályszegések elkerülését.
+4.3. Mélyebb Elemzések és Cikkek
+Funkció: Mélyebb elemzések és cikkek készítése.
+Felelős: Elemzők, Írók
+Az elemzők és írók speciális cikkeket és mélyebb elemzéseket készítenek a fontos témákról. Az alkalmazás kiemeli ezeket a cikkeket a főoldalon és a releváns kategóriákban.
+4.4. Felhasználói Felület és Testreszabhatóság
+Funkció: Testreszabható felhasználói felület és preferenciák.
+Felelős: Felhasználók
+A felhasználók testreszabhatják a felületet az egyéni preferenciáiknak megfelelően. Választhatnak kedvenc témákat, beállíthatnak értesítéseket és követhetnek szerzőket a személyre szabott felhasználói élmény érdekében.
+4.5. Tartalom Minőségellenőrzés és Hibakezelés
+Funkció: Tartalom minőségellenőrzés és hibakezelés.
+Felelős: Moderátorok, Adminisztrátorok
+Moderátorok folyamatosan ellenőrzik a tartalmat a szabályoknak megfelelően. Hibák esetén az adminisztrátorok gyorsan beavatkoznak és javítják azokat.
+4.6. Adatgyűjtés és Felhasználói Visszajelzés
+Funkció: Adatgyűjtés és felhasználói visszajelzés elemzése.
+Felelős: Felhasználók, Elemzők
+Az alkalmazás gyűjti az adatokat a felhasználók viselkedéséről és visszajelzéseiről. Az elemzők használják ezeket az adatokat a felület és a tartalom fejlesztéséhez.
+4.7. Személyre Szabott Tartalom Ajánlások
+Funkció: Személyre szabott tartalomajánlások.
+Felelős: Algoritmusok
+Az alkalmazás személyre szabott tartalomajánlásokat nyújt a felhasználóknak az alapján, hogy milyen híreket olvastak korábban és milyen témák érdeklik őket.
 
 ## 5. Követelménylista
 
