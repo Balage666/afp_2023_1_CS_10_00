@@ -1,7 +1,7 @@
 # Rendszerterv
 ## 1. A rendszer célja
-A felhasználó hiteles és aktuális hírekről kapjon részletes információkat, mindezt átláthatóan és kidolgozottan. Bármilyen eszköről és böngészőből elérhető webalkalmazás.
-  
+A felhasználó hiteles és aktuális hírekről kapjon részletes információkat, mindezt átláthatóan és kidolgozottan. Bármilyen eszköről és böngészőből elérhető webalkalmazás. A hírek tipusok szerint csoportosítva is megtekinthető. Admin jogosultságú felhasználóknak lehetőségük van hírek létrehozására és törlésére.
+
 ## 2. Projektterv
 
 ### 2.1 Projektszerepkörök, felelőségek:
@@ -59,8 +59,28 @@ A felhasználó hiteles és aktuális hírekről kapjon részletes információk
 ## 5. Funkcionális terv
 
 ### 5.1 Rendszerszereplők
+ - Admin
+    - Teljes hozzáférés a rendszerhez
+    - Felhasználó tevékenységek felügyelése
+    - Felhasználók törlése
+    - Hírek létrehozása, törlése
+
+ - Felhasználó
+    - Hírek megtekintése
+    - Visszajelzések küldése
 
 ### 5.2 Menühierarchiák
+ - Bejelentkezés
+    - Bejelentkezés
+    - Regisztráció
+
+ - Kezdőlap
+    - Friss Hírek
+    - Belföldi Hírek
+    - Külföldi hírek
+    - Politika
+    - Felhasználói adatok
+       - Kijelentkezés
 
 ## 6. Fizikai környezet
 
