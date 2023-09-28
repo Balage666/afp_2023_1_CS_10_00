@@ -1,6 +1,6 @@
 # Rendszerterv
 ## 1. A rendszer célja
-A felhasználó hiteles és aktuális hírekről kapjon részletes információkat, mindezt átláthatóan és kidolgozottan. Bármilyen eszköről és böngészőről elérhető webalkalmazás.
+A felhasználó hiteles és aktuális hírekről kapjon részletes információkat, mindezt átláthatóan és kidolgozottan. Bármilyen eszköről és böngészőből elérhető webalkalmazás.
   
 ## 2. Projektterv
 
@@ -27,7 +27,9 @@ A felhasználó hiteles és aktuális hírekről kapjon részletes információk
 |Program                  |Tesztelés                               |         4 |             2 |                      2 |                2 |                   2 |
 
 ### 2.4 Mérföldkövek:
+   * Projekt megtervezése
    * Prototípus átadása
+   * Kész projekt átadása
 
 ## 3. Üzleti folyamatok modellje
 
