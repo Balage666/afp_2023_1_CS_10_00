@@ -48,8 +48,8 @@ Felelős: Algoritmusok
 Folyamat: Az alkalmazás személyre szabott tartalomajánlásokat nyújt a felhasználóknak az alapján, hogy milyen híreket olvastak korábban és milyen témák érdeklik őket.
 
 ## 6. Követelménylista
-
 | Id | Modul | Név | Leírás |
+| --- | --- | --- | --- |
 | K1 | Felület | Comment | A felhasználók megtudják osztani gondoltaikat egy cikk vagy poszt alatt.|
 | K2 | Jogosultság| Bejelentkezési felület|A felhasználó az email címe és a jelszava segítségével bejelentkezhet.|
 | K3 | Jogosultság | Regisztráció |A felhasználó a felhasználói nevének, email címének és jelszavának megadásával regisztrálja magát.|
