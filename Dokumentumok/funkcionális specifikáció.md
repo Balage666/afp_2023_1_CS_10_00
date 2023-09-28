@@ -68,20 +68,20 @@ Az alkalmazás személyre szabott tartalomajánlásokat nyújt a felhasználókn
 | K5 | Modifikáció | Jelszó modosítás | A felhasználó módosítani tudja saját jelszavát.|
 
 ## 6. Használati esetek
--Felhasználó:
-1.Hírfolyam böngészése: A felhasználó bejelentkezik egy közösségi média platformra, és böngészi a hírfolyamot, lájkolja vagy megosztja a bejegyzéseket, vagy kommenteket ír.
-2.Regisztráció és bejelentkezés: Egy felhasználó regisztrál egy weboldalon vagy alkalmazásban, majd bejelentkezik a fiókjába, hogy hozzáférjen a személyes adataihoz és funkciókhoz.
-3.Profilkezelés: A felhasználó szerkeszti a saját profilját, hozzáadja vagy módosítja a profilképét, frissíti az elérhetőségi adatait, vagy módosítja a jelszavát.
+**Felhasználó:**
+- Hírfolyam böngészése: A felhasználó bejelentkezik egy közösségi média platformra, és böngészi a hírfolyamot, lájkolja vagy megosztja a bejegyzéseket, vagy kommenteket ír.
+- Regisztráció és bejelentkezés: Egy felhasználó regisztrál egy weboldalon vagy alkalmazásban, majd bejelentkezik a fiókjába, hogy hozzáférjen a személyes adataihoz és funkciókhoz.
+- Profilkezelés: A felhasználó szerkeszti a saját profilját, hozzáadja vagy módosítja a profilképét, frissíti az elérhetőségi adatait, vagy módosítja a jelszavát.
 
--ADMIN: 
-1.Felhasználók kezelése: Az adminisztrátorok felügyelik és kezelik a felhasználói fiókokat, beleértve az új fiókok létrehozását, meglévők frissítését vagy deaktiválását.
-2.Hibaelhárítás és támogatás: Az adminisztrátorok segítenek a felhasználóknak, ha technikai problémáik vagy kérdéseik vannak, és hibaelhárítást végeznek, hogy megoldják a rendszerrel kapcsolatos problémákat.
-3.Biztonsági intézkedések: Az adminisztrátorok felelnek a rendszerbiztonságért, beleértve a felhasználók adatainak védelmét és az esetleges kiberbiztonsági fenyegetések elleni védelmet.
-4.Frissítések és karbantartás: Az adminisztrátorok frissítik az alkalmazást vagy a rendszert, hogy biztosítsák a funkciók és a biztonság folyamatos fejlesztését, valamint karbantartási tevékenységeket végeznek.
-5.Felhasználói jogosultságok kezelése: Az adminisztrátorok beállítják és ellenőrzik a felhasználói jogosultságokat, hogy biztosítsák, hogy minden felhasználó csak a megfelelő adatokhoz és funkciókhoz férhessen hozzá.
-6.Riportok és analitika: Az adminisztrátorok különböző riportokat és analitikai adatokat generálnak a rendszer teljesítményéről, amelyek segítenek az üzleti döntések meghozatalában.
-7.Adatbázis-kezelés: Az adminisztrátorok feladata lehet az adatbázisok kezelése, tartalmuk biztonságának és integritásának fenntartása.
-8.Tartalomkezelés: Az adminisztrátorok felelősek lehetnek a tartalom feltöltéséért, szerkesztéséért és eltávolításáért, például blogbejegyzések, cikkek vagy képek esetén.
+**ADMIN:** 
+- Felhasználók kezelése: Az adminisztrátorok felügyelik és kezelik a felhasználói fiókokat, beleértve az új fiókok létrehozását, meglévők frissítését vagy deaktiválását.
+- Hibaelhárítás és támogatás: Az adminisztrátorok segítenek a felhasználóknak, ha technikai problémáik vagy kérdéseik vannak, és hibaelhárítást végeznek, hogy megoldják a rendszerrel kapcsolatos problémákat.
+- Biztonsági intézkedések: Az adminisztrátorok felelnek a rendszerbiztonságért, beleértve a felhasználók adatainak védelmét és az esetleges kiberbiztonsági fenyegetések elleni védelmet.
+- Frissítések és karbantartás: Az adminisztrátorok frissítik az alkalmazást vagy a rendszert, hogy biztosítsák a funkciók és a biztonság folyamatos fejlesztését, valamint karbantartási tevékenységeket végeznek.
+- Felhasználói jogosultságok kezelése: Az adminisztrátorok beállítják és ellenőrzik a felhasználói jogosultságokat, hogy biztosítsák, hogy minden felhasználó csak a megfelelő adatokhoz és funkciókhoz férhessen hozzá.
+- Riportok és analitika: Az adminisztrátorok különböző riportokat és analitikai adatokat generálnak a rendszer teljesítményéről, amelyek segítenek az üzleti döntések meghozatalában.
+- Adatbázis-kezelés: Az adminisztrátorok feladata lehet az adatbázisok kezelése, tartalmuk biztonságának és integritásának fenntartása.
+- Tartalomkezelés: Az adminisztrátorok felelősek lehetnek a tartalom feltöltéséért, szerkesztéséért és eltávolításáért, például blogbejegyzések, cikkek vagy képek esetén.
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
