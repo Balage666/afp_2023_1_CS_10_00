@@ -38,6 +38,9 @@ A felhasználó hiteles és aktuális hírekről kapjon részletes információk
 ### 3.2 Üzleti folyamatok
 
 ## 4. Követelmények
+ - Reszponzív, dinamikus weboldal
+ - Felhasználókezelő rendszer
+ - Backend része PHP legyen
 
 ### Funkcionális követelmények
 
