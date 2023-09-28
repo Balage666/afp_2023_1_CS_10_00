@@ -67,6 +67,17 @@ A felhasználó hiteles és aktuális hírekről kapjon részletes információk
     - Visszajelzések küldése
 
 ### 5.2 Menühierarchiák
+ - Bejelentkezés
+    - Bejelentkezés
+    - Regisztráció
+
+ - Kezdőlap
+    - Friss Hírek
+    - Belföldi Hírek
+    - Külföldi hírek
+    - Politika
+    - Felhasználói adatok
+       - Kijelentkezés
 
 ## 6. Fizikai környezet
 
