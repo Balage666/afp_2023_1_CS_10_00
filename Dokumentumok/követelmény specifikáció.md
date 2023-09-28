@@ -39,8 +39,8 @@ A cél tehát egy olyan hírportál létrehozása, amely ötvözi a megbízható
      - Felelős: Adminok
      - Folyamat: Adminok folyamatosan ellenőrzik a tartalmat a szabályoknak megfelelően.
  - 5.6. Adatgyűjtés és Felhasználói Visszajelzés
-     - Felelős: Felhasználók, Elemzők
-     - Folyamat: Az alkalmazás gyűjti az adatokat a felhasználók viselkedéséről és visszajelzéseiről, majd ezeket az adatokat elemzők használják a felület és a tartalom fejlesztéséhez.
+     - Felelős: Felhasználók, Adminok
+     - Folyamat: Az alkalmazás gyűjti az adatokat a felhasználók viselkedéséről és visszajelzéseiről.
  - 5.7. Személyre Szabott Tartalom Ajánlások
      - Felelős: Algoritmusok
      - Folyamat: Az alkalmazás személyre szabott tartalomajánlásokat nyújt a felhasználóknak az alapján, hogy milyen híreket olvastak korábban és milyen témák érdeklik őket.
