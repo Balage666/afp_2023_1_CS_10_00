@@ -81,13 +81,9 @@ A felhasználó hiteles és aktuális hírekről kapjon részletes információk
 
 ## 6. Fizikai környezet
 
-### Vásárolt softwarekomponensek és külső rendszerek
-
-### Hardver topológia
-
-### Fizikai alrendszerek
-
 ### Fejlesztő eszközök
+ - Xampp
+ - Visual Studio Code
 
 ## 8. Architekturális terv
 
