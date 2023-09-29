@@ -83,6 +83,11 @@ A hírek és kommentek publikusan megtekinthetők minden látogató számára. M
 - Tartalomkezelés: Az adminisztrátorok felelősek lehetnek a tartalom feltöltéséért, szerkesztéséért és eltávolításáért, például blogbejegyzések, cikkek vagy képek esetén.
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
+| Lefedett használati eset | Követelmény | Követelmény azonosító(k) |
+| --- | :--: | :--: |
+| A felhasználó az email címe és a jelszava segítségével bejelentkezhet. Az adatbázisban eltárolt jelszóval és felhasználónével ellentétben rossz adatérkezik a rendszer tájékoztat a sikertelen bejelntkezésről. | Bejelentkezési felület | K2 |
+| A felhasználó a felhasználói nevének, email címének és jelszavának megadásával regisztrálja magát.Ha hibás adatokat visszbe arról a rendszer tajákoztatást ad egy hibaüzenet képében. | Regisztrációs felület | K3 |
+| A felhasznákóknak megjelennek a hírek és megtudják osztani gondoltaikat egy cikk vagy poszt alatt. | Felület | K1 |
 
 ## 8. Képernyőtervek
 
