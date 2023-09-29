@@ -90,11 +90,22 @@ A felhasználó hiteles és aktuális hírekről kapjon részletes információk
 
 ## 8. Architekturális terv
 
+A szerveroldai funkciókat PHP-ban (Visual Studio Code) írjuk meg.
+A Backend komunikál a MySQL adatbázissal.
+A Frontend részén űrlaposan kezeltük az adatbázis műveleteit.
+A Webalkalmazást böngészőn keresztül lehet elérni.
+
 ### Webszerver
+
+Apache (Xampp-on keresztül)
 
 ### Adatbázis rendszer
 
+MySQL (phpMyAdmin)
+
 ### A program elérése, kezelése
+
+Webszerveren (Apache)
 
 ## 9. Adatbázis terv
 
