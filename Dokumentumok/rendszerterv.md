@@ -47,16 +47,23 @@ A felhasználó hiteles és aktuális hírekről kapjon részletes információk
 
 | ID | Megnevezés | Leírás |
 | --- | --- | --- |
-| K1 | ... | ... |
+| K1 | Regisztráció  | Felhasználói fiók létrehozására való opció |
+| K2 | Bejelentkezés | A korábban már regisztrált felhasználók be tudjanak jelentkezni az oldalra|
+| K3 | Szerepkörök  | Felhasználók elkülönülnek jogosultságaik szerint |
+| K4 | Adatbázis |  Adatbázis  alkalmazása az oldal fontosabb adatainak tárolására |
+| K5 | Komment |  Felhasználó leírthatja a gondolatait |
 
 ### Nemfunkcionális követelmények
 
 | ID | Megnevezés | Leírás |
 | --- | --- | --- |
-| K4 | ... | ... |
+| K1 | Fiók létrehozása | Fióknélkül ne lehessen kommentelni. |
+| K2 | Jogok | Elkülönüljön az admin a felhasználótól az elsőnek több hozzáférrése legyen a felhasználónak kevesebb |
+| K3 | Átlátható felület | Könnyen kezelhető webes felület |
+
 
 ### Támogatott eszközök
-
+Windows,Linux,MacOS
 ## 5. Funkcionális terv
 
 ### 5.1 Rendszerszereplők
