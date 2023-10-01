@@ -94,6 +94,7 @@ A hírek és kommentek publikusan megtekinthetők minden látogató számára. M
 ![képnév](gitlink ahol a kép van)
 
 ## 9. Forgatókönyvek
+A felhasználók a weboldalon böngészik a legfrissebb híreket és olvashatnak. Az adminisztrátorok felügyelik a tartalom minőségét.
 
 ## 10. Funkció - követelmény megfeleltetése
 
