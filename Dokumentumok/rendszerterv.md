@@ -32,6 +32,7 @@ A felhasználó hiteles és aktuális hírekről kapjon részletes információk
    * Kész projekt átadása
 
 ## 3. Üzleti folyamatok modellje
+![ufm](uzleti_folyamatok_modellje.png)
 
 ### 3.1 Üzleti szereplők
 
