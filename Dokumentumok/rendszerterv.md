@@ -111,42 +111,58 @@ Webszerveren (Apache)
 
 ## 10. Implementációs terv
 
+A projektünket a következő programozási nyelveken fejlesszük: HTML, CSS, JS és PHP.   
+A weboldal információinak jelentős részét MySQL adatbázisban tároljuk el.  
+A könnyebb átláthatóság és kezelhetőség érdekében magyar változóneveket, mappaneveket, könyvtárneveket részesítjük előnyben.
+
 ## 11. Tesztterv
 
-A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata,
-ellenőrzése a rendszer által megvalósított üzleti szolgáltatások verifikálása.
-A teszteléseket a fejlesztői csapat minden tagja elvégzi.
-Egy teszt eredményeit a tagok dokumentálják külön fájlokba.
+A tesztelés fő célja annak biztosítása, hogy a rendszer és annak elemei megfelelően működjenek és hűen tükrözzék az üzleti követelményeket.
+A fejlesztési team minden egyes tagja részt vesz ebben a vizsgálatban. Minden tesztelési eredményt a csapattagok külön-külön dokumentumokban rögzítenek.
 
 ### Tesztesetek
 
  | Teszteset | Elvárt eredmény | 
  |-----------|-----------------| 
- | ... | ... |
-
-### A tesztelési jegyzőkönyv kitöltésére egy sablon:
-
-**Tesztelő:** Vezetéknév Keresztnév
-
-**Tesztelés dátuma:** Év.Hónap.Nap
-
-Tesztszám | Rövid leírás | Várt eredmény | Eredmény | Megjegyzés
-----------|--------------|---------------|----------|-----------
-például. Teszt #01 | Regisztráció | A felhasználó az adatok megadásával sikeresen regisztrálni tud  | A felhasználó sikeresen regisztrált | Nem találtam problémát.
-... | ... | ... | ... | ...
-
+ | Hírek listázása a kezdőlapon | Az összes, a rendszerben tárolt hír megjelenik a kezdőoldalon. | 
+ | Egy hír részletes megtekintése | A kiválasztott hír teljes tartalma, dátuma és szerzője megjelenik egy új oldalon. | 
+ | Hír keresése a keresőmezőben | A megadott kulcsszó alapján a rendszer releváns találatokat jelenít meg. |
+ | Komment hozzáadása a hírhez | A megadott komment sikeresen hozzáadódik a hírhez. |
+ | Kommentelés név nélkül | A rendszer figyelmeztet, hogy a név megadása kötelező. |
+ | Regisztráció nélküli hír beküldése | A rendszer figyelmeztet, hogy csak regisztrált felhasználók küldhetnek be híreket. |
+ | Hír beküldése szöveg nélkül | A rendszer figyelmeztet, hogy a hír szövegének megadása kötelező. |  
+ -
+   További információ a tesztelés mappában.
+   
 ## 12. Telepítési terv
 
-Fizikai telepítési terv: 
-
-Szoftver telepítési terv: 
+A Xampp egy népszerű helyi kiszolgálói környezet, amely mind Windows, mind Linux rendszereken elérhető, így hírportálunk megvalósításához is ezt használjuk. A Xampp segítségével könnyedén futtathatunk webalkalmazásokat a saját gépünkön. Az alábbi lépések mutatják be, hogyan használható a Xampp a két operációs rendszeren:
+ - Windows rendszeren:
+ 1. Másolja az alkalmazásához szükséges fájlokat a xampp\htdocs könyvtárba.
+ 2. Nyissa meg a Xampp vezérlőpultját és indítsa el az Apache és MySQL szolgáltatásokat.
+ 3. Nyisson meg egy böngészőt és írja be a címsorba: localhost. Ezen a címen tekintheti meg az alkalmazását.
+ - Linux rendszeren:
+ 1. Az alkalmazás fájljait a /opt/lampp/htdocs könyvtárba kell helyezni.
+ 2. A terminálban adja ki a következő parancsot a Xampp szolgáltatások indításához: sudo /opt/lampp/lampp start.
+ 3. Egy böngésző segítségével látogasson el a localhost címre, ahol megtekintheti a futó alkalmazását.
 
 ## 13. Karbantartási terv
 
-Fontos ellenőrizni:
-...
+ 1. Beérkező visszajelzések gyűjtése és kategorizálása:
+ - Visszajelzési rendszer létrehozása: Egy email cím létrehozása kifejezetten a felhasználói visszajelzésekhez, pl. visszajelzes@hirportal.hu.
+ - Kategorizálás: A beérkező visszajelzések kategorizálása működéssel és dizájnnal kapcsolatosan.
+ 2. Működéssel kapcsolatos visszajelzések:
+ - Hibajegy: Minden működéssel kapcsolatos hiba bejegyzése egy hibakövető rendszerben.
+ - Prioritizálás: A hibák súlyossága és hatása alapján prioritizálás.
+ - Orvoslás: A súlyos hibákat azonnal orvosolni kell, míg a kisebbeket a következő karbantartási időszakban.
+ 3. Kinézet, dizájnnal kapcsolatos visszajelzések:
+ - Vizualizációs jegy: Minden dizájnnal kapcsolatos visszajelzést jegyezzünk fel egy külön listában.
+ - Értékelés: A tervező csapat hetente értékeli a beérkező visszajelzéseket.
+ - Implementálás: A jóváhagyott dizájnváltoztatások bevezetése a következő frissítés során.
+ 4. Válasz a felhasználóknak:
+ - Visszaigazolás: Minden beérkező visszajelzésre küldjünk automatikus visszaigazolást, amely megerősíti, hogy megkaptuk a jelzést.
+ - Személyes válasz: Amint a hibát orvosoltuk vagy a javaslatot értékeltük, küldjünk személyes választ a felhasználónak az eredményről vagy a következő lépésekről.
+ 5. Értékelés és továbbfejlesztés:
+ - Havi értékelés: Havonta egyszer értékeljük a beérkezett visszajelzéseket, és készítsünk jelentést a vezetőség számára.
+ - Folyamatos fejlesztés: A rendszeres visszajelzések alapján továbbfejlesztjük a portált és a karbantartási folyamatokat.
 
-Figyelembe kell venni a felhasználó által jött visszajelzést is a programmal kapcsolatban.
-Ha hibát talált, mielőbb orvosolni kell, lehet az:
-*	Működéssel kapcsolatos
-*	Kinézet, dizájnnal kapcsolatos
