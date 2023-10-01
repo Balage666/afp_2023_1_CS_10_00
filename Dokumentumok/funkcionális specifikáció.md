@@ -92,6 +92,7 @@ A hírek és kommentek publikusan megtekinthetők minden látogató számára. M
 ## 8. Képernyőtervek
 
 ![lgnrgst](loginregister.PNG)
+![fooldal](fooldal.PNG)
 
 ## 9. Forgatókönyvek
 A felhasználók a weboldalon böngészik a legfrissebb híreket és olvashatnak. Az adminisztrátorok felügyelik a tartalom minőségét.
@@ -103,3 +104,5 @@ A felhasználók a weboldalon böngészik a legfrissebb híreket és olvashatnak
 | K4 | ... | ... |
 
 ## 11 Fogalomszótár
+
+[def]: fooldal.PNG
