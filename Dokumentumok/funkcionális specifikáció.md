@@ -91,7 +91,7 @@ A hírek és kommentek publikusan megtekinthetők minden látogató számára. M
 
 ## 8. Képernyőtervek
 
-![képnév](gitlink ahol a kép van)
+![lgnrgst](loginregister.PNG)
 
 ## 9. Forgatókönyvek
 A felhasználók a weboldalon böngészik a legfrissebb híreket és olvashatnak. Az adminisztrátorok felügyelik a tartalom minőségét.
