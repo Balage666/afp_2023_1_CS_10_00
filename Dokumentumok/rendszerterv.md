@@ -47,19 +47,19 @@ A felhasználó hiteles és aktuális hírekről kapjon részletes információk
 
 | ID | Megnevezés | Leírás |
 | --- | --- | --- |
-| K1 | Regisztráció  | Felhasználói fiók létrehozására való opció |
+| K1 | Regisztráció  | Felhasználói fiók létrehozására való opció.<br>Fióknélkül ne lehessen kommentelni. |
 | K2 | Bejelentkezés | A korábban már regisztrált felhasználók be tudjanak jelentkezni az oldalra|
 | K3 | Szerepkörök  | Felhasználók elkülönülnek jogosultságaik szerint |
-| K4 | Adatbázis |  Adatbázis  alkalmazása az oldal fontosabb adatainak tárolására |
-| K5 | Komment |  Felhasználó leírthatja a gondolatait |
+| K4 | Komment |  Felhasználó leírthatja a gondolatait |
+| K5 | CRUD műveletek |  Hír létrehozzása,törlése,szerkesztése.|
 
 ### Nemfunkcionális követelmények
 
 | ID | Megnevezés | Leírás |
 | --- | --- | --- |
-| K1 | Fiók létrehozása | Fióknélkül ne lehessen kommentelni. |
-| K2 | Jogok | Elkülönüljön az admin a felhasználótól az elsőnek több hozzáférrése legyen a felhasználónak kevesebb |
-| K3 | Átlátható felület | Könnyen kezelhető webes felület |
+| K1 | Jogok | Elkülönüljön az admin a felhasználótól az elsőnek több hozzáférrése legyen a felhasználónak kevesebb |
+| K2 | Átlátható felület | Könnyen kezelhető webes felület |
+| K3 | Adatbázis |  Adatbázis  alkalmazása az oldal fontosabb adatainak tárolására |
 
 
 ### Támogatott eszközök
