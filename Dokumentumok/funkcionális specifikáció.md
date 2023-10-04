@@ -105,4 +105,7 @@ A felhasználók a weboldalon böngészik a legfrissebb híreket és olvashatnak
 
 ## 11 Fogalomszótár
 
+- **Web alapú alkalmazás:** - A Web alapú kezelés egy olyan segédprogram, amely egy szokványos webböngészőt használ a készülék HTTP és HTTPS protokollal történő kezeléséhez.
+- **Adatbázis:** - Az adatbázis (DB: Database) számítógépen (általában háttértárakon) tárolt adatok összessége.
+
 [def]: fooldal.PNG
