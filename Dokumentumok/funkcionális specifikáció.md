@@ -91,8 +91,8 @@ A hírek és kommentek publikusan megtekinthetők minden látogató számára. M
 
 ## 8. Képernyőtervek
 
-![lgnrgst](loginregister.PNG)
-![fooldal](fooldal.PNG)
+![lgnrgst](../Képernyőtervek/loginregister.PNG)
+![fooldal](../Képernyőtervek/fooldal.PNG)
 
 ## 9. Forgatókönyvek
 A felhasználók a weboldalon böngészik a legfrissebb híreket és olvashatnak. Az adminisztrátorok felügyelik a tartalom minőségét.
