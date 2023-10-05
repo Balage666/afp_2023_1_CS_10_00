@@ -2,7 +2,7 @@
     define('dbHOST','localhost');
     define('dbUSERNAME','root');
     define('dbPASSWORD','');
-    define('dbDATABASE','hirportal');
+    define('dbDATABASE','hirpotal');
     define('dbPORT','3306');
 
     function connect()
