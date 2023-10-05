@@ -48,14 +48,14 @@ A cél tehát egy olyan hírportál létrehozása, amely ötvözi a megbízható
 ## 6. Követelménylista
 | Id | Modul | Név | Leírás |
 | --- | --- | --- | --- |
-| K1 | Felület | Comment | A felhasználók megtudják osztani gondoltaikat egy cikk vagy poszt alatt.|
-| K2 | Jogosultság| Bejelentkezési felület|A felhasználó az email címe és a jelszava segítségével bejelentkezhet.|
-| K3 | Jogosultság | Regisztráció |A felhasználó a felhasználói nevének, email címének és jelszavának megadásával regisztrálja magát.|
-| K4 | Jogosultság| Jogosultsági szintek| -Admin:Rendszerhozzáférés, hírek feltöltése, felhasználók / szerepkörök módósítása. <br>-Felhasználó: Cikkek böngészése, kommentelés.|
-| K5 | Modifikáció | Jelszó modosítás | A felhasználó módosítani tudja saját jelszavát.|
-| K6 | Modifikáció | Cikk törlése | Cikk törlése.|
-| K7 | Modifikáció | Cikk szerkesztése | Cikk szerkesztése.|
-| K8 | Modifikáció | Cikk létrehozása | Cikk írása,létrehozása,formázása.|
+| M1 | Felület | Comment | A felhasználók megtudják osztani gondoltaikat egy cikk vagy poszt alatt.|
+| M2 | Jogosultság| Bejelentkezési felület|A felhasználó az email címe és a jelszava segítségével bejelentkezhet.|
+| M3 | Jogosultság | Regisztráció |A felhasználó a felhasználói nevének, email címének és jelszavának megadásával regisztrálja magát.|
+| M4 | Jogosultság| Jogosultsági szintek| -Admin:Rendszerhozzáférés, hírek feltöltése, felhasználók / szerepkörök módósítása. <br>-Felhasználó: Cikkek böngészése, kommentelés.|
+| M5 | Modifikáció | Jelszó modosítás | A felhasználó módosítani tudja saját jelszavát.|
+| M6 | Modifikáció | Cikk törlése | Cikk törlése.|
+| M7 | Modifikáció | Cikk szerkesztése | Cikk szerkesztése.|
+| M8 | Modifikáció | Cikk létrehozása | Cikk írása,létrehozása,formázása.|
 
 ## 7. Fogalomtár
  - **Reszponzív felület** - Mobilon, Tableten, PC-n igazodik a

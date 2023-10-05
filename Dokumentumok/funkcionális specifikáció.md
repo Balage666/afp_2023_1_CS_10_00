@@ -57,14 +57,14 @@ A hírek és kommentek publikusan megtekinthetők minden látogató számára. M
 
 | Id | Modul | Név | Leírás |
 | --- | --- | --- | --- |
-| K1 | Felület | Comment | A felhasználók megtudják osztani gondoltaikat egy cikk vagy poszt alatt.|
-| K2 | Jogosultság| Bejelentkezési felület|A felhasználó az email címe és a jelszava segítségével bejelentkezhet. Az adatbázisban eltárolt jelszóval és felhasználónével ellentétben rossz adatérkezik a rendszer tájékoztat a sikertelen bejelntkezésről. |
-| K3 | Jogosultság | Regisztráció |A felhasználó a felhasználói nevének, email címének és jelszavának megadásával regisztrálja magát.Ha hibás adatokat visszbe arról a rendszer tajákoztatást ad egy hibaüzenet képében.|
-| K4 | Jogosultság| Jogosultsági szintek| -Admin:Rendszerhozzáférés, hírek feltöltése, felhasználók / szerepkörök módósítása. <br> -Felhasználó: Cikkek böngészése kommentelés.|
-| K5 | Modifikáció | Jelszó modosítás | A felhasználó módosítani tudja saját jelszavát.|
-| K6 | Modifikáció | Cikk törlése | Cikk törlése.|
-| K7 | Modifikáció | Cikk szerkesztése | Cikk szerkesztése.|
-| K8 | Modifikáció | Cikk létrehozása | Cikk írása,létrehozása,formázása.|
+| FK1 | Felület | Comment | A felhasználók megtudják osztani gondoltaikat egy cikk vagy poszt alatt.|
+| FK2 | Jogosultság| Bejelentkezési felület|A felhasználó az email címe és a jelszava segítségével bejelentkezhet. Az adatbázisban eltárolt jelszóval és felhasználónével ellentétben rossz adatérkezik a rendszer tájékoztat a sikertelen bejelntkezésről. |
+| FK3 | Jogosultság | Regisztráció |A felhasználó a felhasználói nevének, email címének és jelszavának megadásával regisztrálja magát.Ha hibás adatokat visszbe arról a rendszer tajákoztatást ad egy hibaüzenet képében.|
+| FK4 | Jogosultság| Jogosultsági szintek| -Admin:Rendszerhozzáférés, hírek feltöltése, felhasználók / szerepkörök módósítása. <br> -Felhasználó: Cikkek böngészése kommentelés.|
+| FK5 | Modifikáció | Jelszó modosítás | A felhasználó módosítani tudja saját jelszavát.|
+| FK6 | Modifikáció | Cikk törlése | Cikk törlése.|
+| FK7 | Modifikáció | Cikk szerkesztése | Cikk szerkesztése.|
+| FK8 | Modifikáció | Cikk létrehozása | Cikk írása,létrehozása,formázása.|
 
 ## 6. Használati esetek
 **Felhasználó:**
@@ -119,9 +119,13 @@ A felhasználók a weboldalon böngészik a legfrissebb híreket és olvashatnak
 
 ## 10. Funkció - követelmény megfeleltetése
 
-| Id | Követelmény | Funkció |
-| :---: | --- | --- |
-| K4 | ... | ... |
+| Id | Követelmény | Funkció | 
+| -- | -- |---| 
+| K1 | FK3 | M3 |  
+| K2 | FK2 | M2 |  
+| K3 | FK4 | M4 |  
+| K4 | FK1 | M1 |  
+| K5 | FK6, FK7, FK8 | M6, M7, M8 |  
 
 ## 11 Fogalomszótár
 
