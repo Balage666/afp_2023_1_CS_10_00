@@ -86,10 +86,10 @@ A hírek és kommentek publikusan megtekinthetők minden látogató számára. M
 | Lefedett használati eset | Követelmény | Követelmény azonosító(k) |
 | --- | :--: | :--: |
 | A felhasználó az email címe és a jelszava segítségével bejelentkezhet. Az adatbázisban eltárolt jelszóval és felhasználónével ellentétben rossz adatérkezik a rendszer tájékoztat a sikertelen bejelntkezésről. | Bejelentkezési felület | K2 |
-| A felhasználó a felhasználói nevének, email címének és jelszavának megadásával regisztrálja magát.Ha hibás adatokat visszbe arról a rendszer tajákoztatást ad egy hibaüzenet képében. | Regisztrációs felület | K3 |
+| A felhasználó a felhasználói nevének, email címének és jelszavának megadásával regisztrálja magát. Ha hibás adatokat visszbe arról a rendszer tajákoztatást ad egy hibaüzenet képében. | Regisztrációs felület | K3 |
 | A felhasznákóknak megjelennek a hírek és megtudják osztani gondoltaikat egy cikk vagy poszt alatt és híreket tudnak böngészni. | Felület | K1, K4 |
 | A felhasználók a felhasználói adatoknál jelszavat tud változtatni. | Jelszó módosítás | K5 |
-| Admin felhasználó cikkeket hozhat létre, cikkeket törölhet és szerkeszthet | Admin jogosultság | K6, K7, K8 |
+| Admin felhasználó cikkeket hozhat létre, cikkeket törölhet és szerkeszthet. | Admin jogosultság | K6, K7, K8 |
 
 ## 8. Képernyőtervek
 
@@ -98,6 +98,24 @@ A hírek és kommentek publikusan megtekinthetők minden látogató számára. M
 
 ## 9. Forgatókönyvek
 A felhasználók a weboldalon böngészik a legfrissebb híreket és olvashatnak. Az adminisztrátorok felügyelik a tartalom minőségét.
+
+1. Bejelentkezés
+ - A felhasználó megadja a felhasználónevét és jelszavát.
+ - Sikeres bejelentkezés esetén megjelenik a hírportál kezdőlapja.
+ - Sikertelen bejelentkezés esetén értesítést kap és visszalép a Bejelentkező felületre.
+
+2. Regisztráció
+ - A felhasználó megadja regisztálni kívánt a felhasználónevét, e-mail címét, jelszavát és jelszó ismétlését.
+ - Sikeres regisztráció esetén értesítést kap és a bejelentkező felületre lép.
+ - Sikertelen regisztráció esetén értesítést kap a hibáról és visszalép a regisztrációs felületre.
+
+3. Kezdőlap
+ - A felhasználók híreket böngésznek és kommentelhetnek alatta.
+ - Az admin felhasználók szerkessztheti a meglévő híreket, törölhetnek híreket és létrehozhatnak új híreket.
+
+4. Felhasználói adatok
+ - A felhasználók megtekinthetik a saját felhasználói adataikat és jelszavat módosíthatnak.
+ - Az admin felhasználók módosíthatják a felhasználói jogosultságokat és a felhasználókat moderálhatják (kitilthatják).
 
 ## 10. Funkció - követelmény megfeleltetése
 
