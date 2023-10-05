@@ -87,7 +87,9 @@ A hírek és kommentek publikusan megtekinthetők minden látogató számára. M
 | --- | :--: | :--: |
 | A felhasználó az email címe és a jelszava segítségével bejelentkezhet. Az adatbázisban eltárolt jelszóval és felhasználónével ellentétben rossz adatérkezik a rendszer tájékoztat a sikertelen bejelntkezésről. | Bejelentkezési felület | K2 |
 | A felhasználó a felhasználói nevének, email címének és jelszavának megadásával regisztrálja magát.Ha hibás adatokat visszbe arról a rendszer tajákoztatást ad egy hibaüzenet képében. | Regisztrációs felület | K3 |
-| A felhasznákóknak megjelennek a hírek és megtudják osztani gondoltaikat egy cikk vagy poszt alatt. | Felület | K1 |
+| A felhasznákóknak megjelennek a hírek és megtudják osztani gondoltaikat egy cikk vagy poszt alatt és híreket tudnak böngészni. | Felület | K1, K4 |
+| A felhasználók a felhasználói adatoknál jelszavat tud változtatni. | Jelszó módosítás | K5 |
+| Admin felhasználó cikkeket hozhat létre, cikkeket törölhet és szerkeszthet | Admin jogosultság | K6, K7, K8 |
 
 ## 8. Képernyőtervek
 
