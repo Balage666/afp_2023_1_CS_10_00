@@ -10,13 +10,15 @@
     <header>
         <h1>Hírportál</h1>
     </header>
+    <!-- Integráció: navbar.php -->
+    <?php include('navbar.php'); ?>
     <nav>
         <ul>
             <li><a href="#">Főoldal</a></li>
-            <li><a href="#">Hírek</a></li>
+            <li><a href="#" id="osszesHirLink">Összes Hír</a></li>
             <li><a href="#" id="sportLink">Sport</a></li>
-            <li><a href="#">Kultúra</a></li>
-            <li><a href="#">Technológia</a></li>
+            <li><a href="#" id="kulturaLink">Kultúra</a></li>
+            <li><a href="#" id="technologiaLink">Technológia</a></li>
         </ul>
     </nav>
     <section>
