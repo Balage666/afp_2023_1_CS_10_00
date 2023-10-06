@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2023. Okt 05. 10:22
--- Kiszolgáló verziója: 10.4.28-MariaDB
--- PHP verzió: 8.2.4
+-- Létrehozás ideje: 2023. Okt 06. 11:03
+-- Kiszolgáló verziója: 10.4.27-MariaDB
+-- PHP verzió: 8.2.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Adatbázis: `hirpotal`
+-- Adatbázis: `hírportál`
 --
 
 -- --------------------------------------------------------
@@ -30,8 +30,9 @@ SET time_zone = "+00:00";
 CREATE TABLE `hirek` (
   `id` int(255) NOT NULL,
   `cim` varchar(255) NOT NULL,
-  `tartalom` varchar(255) NOT NULL,
-  `szerzo` varchar(255) NOT NULL
+  `tartalom` text NOT NULL,
+  `szerzo` int(255) NOT NULL,
+  `kategoria` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -53,7 +54,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `permission`) VALUES
-(5, 'kristof', 'szar@gmail.com', '39bb37cf36d3b29a9280d8a70a0eed42', 'user');
+(5, 'kristof', 'szar@gmail.com', '39bb37cf36d3b29a9280d8a70a0eed42', 'user'),
+(7, 'Joci', 'joci@email.com', 'ce1c1cdc2fac8e1167f22cd4bd88d324', 'admin');
 
 --
 -- Indexek a kiírt táblákhoz
@@ -63,7 +65,8 @@ INSERT INTO `users` (`id`, `username`, `email`, `password`, `permission`) VALUES
 -- A tábla indexei `hirek`
 --
 ALTER TABLE `hirek`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK_hirek_users` (`szerzo`);
 
 --
 -- A tábla indexei `users`
@@ -85,7 +88,17 @@ ALTER TABLE `hirek`
 -- AUTO_INCREMENT a táblához `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
+--
+-- Megkötések a kiírt táblákhoz
+--
+
+--
+-- Megkötések a táblához `hirek`
+--
+ALTER TABLE `hirek`
+  ADD CONSTRAINT `FK_hirek_users` FOREIGN KEY (`szerzo`) REFERENCES `users` (`id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
