@@ -40,7 +40,7 @@
             $_SESSION['id'] = $users[0];
             $_SESSION['username'] = $users[1];
             $_SESSION['permission'] = $users[4];
-            header("Location: index.html");
+            header("Location: index2.php");
         }
         mysqli_close($connection);
     }
