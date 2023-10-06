@@ -1,30 +1,30 @@
-var hirLista = [
-    { cim: "Cím 1", tartalom: "Hír 1 tartalma", kategoria: "Sport" },
-    { cim: "Cím 2", tartalom: "Hír 2 tartalma", kategoria: "Kultúra" },
-    { cim: "Cím 3", tartalom: "Hír 3 tartalma", kategoria: "Sport" },
-    { cim: "Cím 4", tartalom: "Hír 4 tartalma", kategoria: "Sport" },
-    { cim: "Cím 5", tartalom: "Hír 5 tartalma", kategoria: "Technológia" }
-];
-
 function betoltHirek(kategoria) {
-    var hirSzekcio = document.querySelector('section');
-    hirSzekcio.innerHTML = '';
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'getHirek.php', true);
+    xhr.onload = function() {
+        if (this.status == 200) {
+            var hirLista = JSON.parse(this.responseText);
+            var hirSzekcio = document.querySelector('section');
+            hirSzekcio.innerHTML = '';
 
-    hirLista.forEach(function(hir, index) {
-        if (hir.kategoria === kategoria || !kategoria) {
-            var article = document.createElement('article');
-            var h1 = document.createElement('h1');
-            var p = document.createElement('p');
+            hirLista.forEach(function(hir) {
+                if (hir.kategoria === kategoria || !kategoria) {
+                    var article = document.createElement('article');
+                    var h1 = document.createElement('h1');
+                    var p = document.createElement('p');
 
-            h1.textContent = hir.cim;
-            p.textContent = hir.tartalom;
+                    h1.textContent = hir.cim;
+                    p.textContent = hir.tartalom;
 
-            article.appendChild(h1);
-            article.appendChild(p);
+                    article.appendChild(h1);
+                    article.appendChild(p);
 
-            hirSzekcio.appendChild(article);
+                    hirSzekcio.appendChild(article);
+                }
+            });
         }
-    });
+    };
+    xhr.send();
 }
 
 // Az oldal betöltésekor az összes hír megjelenítése
@@ -37,4 +37,21 @@ var sportLink = document.getElementById('sportLink');
 sportLink.addEventListener('click', function(event) {
     event.preventDefault();
     betoltHirek('Sport'); // Betölti a Sport kategória híreit
+});
+// Kultúra kategória kiválasztása
+var kulturaLink = document.getElementById('kulturaLink');
+kulturaLink.addEventListener('click', function(event) {
+    event.preventDefault();
+    betoltHirek('Kultúra'); // Betölti a Kultúra kategória híreit
+});
+// Kultúra kategória kiválasztása
+var technologiaLink = document.getElementById('technologiaLink');
+technologiaLink.addEventListener('click', function(event) {
+    event.preventDefault();
+    betoltHirek('Technológia'); // Betölti a Technológia kategória híreit
+});
+var osszesHirLink = document.getElementById('osszesHirLink');
+osszesHirLink.addEventListener('click', function(event) {
+    event.preventDefault();
+    betoltHirek(); // Betölti az összes hírt
 });
