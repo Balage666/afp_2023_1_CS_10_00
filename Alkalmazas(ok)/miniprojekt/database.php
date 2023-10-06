@@ -2,7 +2,7 @@
     define('dbHOST','localhost');
     define('dbUSERNAME','root');
     define('dbPASSWORD','');
-    define('dbDATABASE','hirpotal');
+    define('dbDATABASE','hírportál');
     define('dbPORT','3306');
 
     function connect()
@@ -22,6 +22,7 @@
                   VALUES ('$username','$email','$password','$permission')";
                   mysqli_query($connection, $query) or die("Hiba a lekérdezésben: $query");
                   mysqli_close($connection);
+                  header("Location: index.php?page=1&msg=Sikeres regisztráció!");
     }
 
     function login($username,$password) {
@@ -41,6 +42,7 @@
             $_SESSION['permission'] = $users[4];
             header("Location: index.html");
         }
+        mysqli_close($connection);
     }
 
 ?>
