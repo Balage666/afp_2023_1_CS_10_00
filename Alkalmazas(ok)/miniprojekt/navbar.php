@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,21 +8,27 @@
     <title>Document</title>
 </head>
 <body>
-<nav class="navigacio">
-    <?php 
-    session_start(); 
 
-    if(!isset($_SESSION['id']) || empty($_SESSION['id'])): 
-    ?>
+<?php 
+session_start();
+
+if(!isset($_SESSION['id']) || empty($_SESSION['id'])):
+    header("Location: login.php");
+    exit();
+endif;
+?>
+
+<nav class="navigacio">
+    <?php if(!isset($_SESSION['id']) || empty($_SESSION['id'])): ?>
         <a href="index.php?page=1">Bejelentkezés</a>
         <a href="index.php?page=2">Regisztráció</a>
-    <?php else: ?>  
+    <?php else: ?>
         <?php if($_SESSION['permission'] == "admin"): ?>
             <a href="createArticle.php">Cikk létrehozása</a>
-        <?php endif; ?>       
+        <?php endif; ?>
+        <a href="logout.php">Kijelentkezés</a>
     <?php endif; ?>
 </nav>
-
 
 <div class="main">
 
