@@ -30,7 +30,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 			  <?php echo $_GET['error']; ?>
 			</div>
 		    <?php } ?>
-            
+			<?php if(isset($_GET['msg'])){ ?>
+    		<div class="alert alert-success" role="alert">
+        		<?php echo $_GET['msg']; ?>
+    		</div>
+			<?php } ?>
+			
 		  <div class="mb-3">
 		    <label class="form-label">Felhasznalónév</label>
 		    <input type="text" class="form-control" name="username">
