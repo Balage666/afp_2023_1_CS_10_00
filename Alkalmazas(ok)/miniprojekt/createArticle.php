@@ -3,9 +3,15 @@ session_start();
 
 include('database.php');
 
-// Ellenőrzés, hogy a felhasználó be van-e jelentkezve és admin-e
-if(!isset($_SESSION['id']) || $_SESSION['permission'] !== 'admin') {
-    die("Hozzáférés megtagadva!");
+if(!isset($_SESSION['id'])) {
+    // Ha a felhasználó nincs bejelentkezve, akkor a login.php-ra irányítsd át
+    header("Location: login.php");
+    exit;
+} 
+elseif ($_SESSION['permission'] !== 'admin') {
+    // Ha a felhasználó be van jelentkezve, de nem admin, akkor az index2.php-ra irányítsd át
+    header("Location: index2.php");
+    exit;
 }
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -13,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $cim = $_POST['cim'];
     $tartalom = $_POST['tartalom'];
     $kategoria = $_POST['kategoria'];
-    $szerzo = $_SESSION['id'];  // Feltéve, hogy már bejelentkeztél és elmentetted az id-t a session-be
+    $szerzo = $_SESSION['id']; 
 
     $query = "INSERT INTO hirek (cim, tartalom, kategoria, szerzo) VALUES ('$cim', '$tartalom', '$kategoria', '$szerzo')";
 
@@ -50,7 +56,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <option value="Sport">Sport</option>
             <option value="Kultúra">Kultúra</option>
             <option value="Technológia">Technológia</option>
-            <!-- További kategóriák hozzáadhatók ide -->
         </select>
         <br>
 
