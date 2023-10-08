@@ -8,11 +8,6 @@ if(!isset($_SESSION['id'])) {
     header("Location: login.php");
     exit;
 } 
-elseif ($_SESSION['permission'] !== 'admin') {
-    // Ha a felhasználó be van jelentkezve, de nem admin, akkor az index2.php-ra irányítsd át
-    header("Location: index2.php");
-    exit;
-}
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Az űrlapból elküldött adatok beolvasása
@@ -24,11 +19,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $query = "INSERT INTO hirek (cim, tartalom, kategoria, szerzo) VALUES ('$cim', '$tartalom', '$kategoria', '$szerzo')";
 
     $connection = connect();
-    mysqli_query($connection, $query) or die("Hiba az adatbázis lekérdezésben: " . mysqli_error($connection));
+    if(mysqli_query($connection, $query)) {
+        $_SESSION['message'] = "Sikeres létrehozás!";
+        header("Location: index2.php");
+        exit;
+    } else {
+        die("Hiba az adatbázis lekérdezésben: " . mysqli_error($connection));
+    }
     mysqli_close($connection);
-
-    // Visszairányítás a főoldalra, vagy egy "Sikeres hozzáadás" üzenet megjelenítése
-    header("Location: index2.php");
 }
 
 ?>

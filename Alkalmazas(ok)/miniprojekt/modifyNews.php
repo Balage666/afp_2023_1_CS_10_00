@@ -56,10 +56,15 @@ mysqli_close($connection);
         <label>Tartalom: </label>
         <textarea name="tartalom"><?php echo $hir['tartalom']; ?></textarea>
         <br>
-        <label>Kategória: </label>
-        <input type="text" name="kategoria" value="<?php echo $hir['kategoria']; ?>">
+        <label for="kategoria">Kategória:</label>
+        <select id="kategoria" name="kategoria" required>
+            <option value="Sport" <?php echo ($hir['kategoria'] == 'Sport') ? 'selected' : ''; ?>>Sport</option>
+            <option value="Kultúra" <?php echo ($hir['kategoria'] == 'Kultúra') ? 'selected' : ''; ?>>Kultúra</option>
+            <option value="Technológia" <?php echo ($hir['kategoria'] == 'Technológia') ? 'selected' : ''; ?>>Technológia</option>
+        </select>
         <br>
         <input type="submit" value="Módosítás">
     </form>
+    <button class="back-button" onclick="window.location.href='newsManagement.php'">Vissza</button>
 </body>
 </html>
