@@ -232,12 +232,12 @@ A fejlesztési team minden egyes tagja részt vesz ebben a vizsgálatban. Minden
  | Teszteset | Elvárt eredmény | 
  |-----------|-----------------| 
  | Hírek listázása a kezdőlapon | Az összes, a rendszerben tárolt hír megjelenik a kezdőoldalon. | 
- | Egy hír részletes megtekintése | A kiválasztott hír teljes tartalma, dátuma és szerzője megjelenik egy új oldalon. | 
- | Hír keresése a keresőmezőben | A megadott kulcsszó alapján a rendszer releváns találatokat jelenít meg. |
- | Komment hozzáadása a hírhez | A megadott komment sikeresen hozzáadódik a hírhez. |
- | Kommentelés név nélkül | A rendszer figyelmeztet, hogy a név megadása kötelező. |
- | Regisztráció nélküli hír beküldése | A rendszer figyelmeztet, hogy csak regisztrált felhasználók küldhetnek be híreket. |
- | Hír beküldése szöveg nélkül | A rendszer figyelmeztet, hogy a hír szövegének megadása kötelező. |  
+ | Hírek kategóriára bontása | A kiválasztott kategóriára kattintva megjelennek csak az abba a kategóriába tartozó hírek | 
+ | Hír hozzáadása | Híreket hozzáadni csak az admin felhasználói jogsultsággal rendelkező személyek tudnak |
+ | Hírek módosítása, törlése | Megfelelően módosításra és/vagy törlésre kerül a kiválaszott hírt az adatbázisban (csak admin jogosultsággal) |
+ | Belépés bármelyik oldalra bejelentkezés nélkül | A rendszer visszadobja a felhasználót a login oldal-ra bármelyik URL-t beírva, ha nincs bejelentkezve |
+ | Kijelentkezés | A kijelentkezés gombra kattintva a felhasználó valóban kijelentkezik a rendszerből és visszaírányítódik a bejelentkezési felületre |
+ | Üzenetek megjelenítése | A rendszerben bármilyen bekövetkező változás megjelenítődik a felhasználó számára (pl. sikeres bejelentkezés, kijelentkezés, regisztráció stb) |  
  -
    További információ a tesztelés mappában.
    
