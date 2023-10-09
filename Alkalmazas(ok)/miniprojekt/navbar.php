@@ -36,6 +36,7 @@ endif;
         <?php if($_SESSION['permission'] == "admin"): ?>
             <a href="newsManagement.php">Hírek kezelése</a> 
         <?php endif; ?>
+        <a href="modifyMyProfile.php">Profilom kezelése</a>
         <a href="createArticle.php">Cikk létrehozása</a>
         <a href="logout.php">Kijelentkezés</a>
     <?php endif; ?>
