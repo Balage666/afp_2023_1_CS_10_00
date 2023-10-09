@@ -75,3 +75,16 @@
 | Teszteset azonosító | Teszteset | Elvárt eredmény | Tényleges eredmény | Megjegyzés |
 | ------------------- | --------- | --------------- | ------------------ | ---------- |
 | __PJ_t025__ | __"Vissza" gombok__ kezelése: | A cikk módosításánál, vagy a cikkek kezelésénél vissza tudunk lépni eggyel egy gomb segítségével, ezáltal pl. nem kötelező a mődosítás, ha meggondoljuk magunkat. | Ugyanaz, mint az Elvárt eredmény szekcióban. | Nem találtam hibára utaló jeleket. 
+
+### Profilok szerkesztésének tesztelése:
+**Tesztelő:** Pál József Gergő
+
+**Tesztelés dátuma:** 2023.10.08
+
+| Teszteset azonosító | Teszteset | Elvárt eredmény | Tényleges eredmény | Megjegyzés |
+| ------------------- | --------- | --------------- | ------------------ | ---------- |
+| __PJ_t026__ | A __profilom kezelése__ funkció: | A **"profilom kezelése"** gombra kattintva a felhasználó átirányítódik egy oldalra, ahol megjelennek az adatai (a jelszó kivételével) és lehetősége lesz a módosításra.| Ugyanaz, mint az Elvárt eredmény szekcióban. | Nem találtam hibára utaló jeleket. 
+| __PJ_t027__ | Már __létező email cím és felhasználónév__ ellenőrzése: | Amennyiben a felhasználó által megadott felhasználónév és/vagy email már létezik az adatbázisban, akkor a módosítást a rendszer megtagadja, jelezve a felhasználónak. | Ugyanaz, mint az Elvárt eredmény szekcióban. | Nem találtam hibára utaló jeleket. 
+| __PJ_t028__ | __Jelszó validálás__: | A módosított jelszónak is legalább 8 karakternek kell lennie, tartalmazni kell legalább egy számot, illetve kis- és nagybetűt. Amennyiben ez nem megfelelő szintén nem módosulnak az adatok. | Ugyanaz, mint az Elvárt eredmény szekcióban. | Nem találtam hibára utaló jeleket. 
+| __PJ_t029__ | __Üres input mezőkkel__ adatmódosítás: | A rendszer kötelez, hogy adjunk meg input adatokat. | Ugyanaz, mint az Elvárt eredmény szekcióban. | Nem találtam hibára utaló jeleket. 
+| __PJ_t030__ | __Sikeres módosítás__: | Amennyiben semmi problémába nem ütköztünk, akkor a módosítás sikeresen mentésre kerül az adatbázisban és már az új adatok lesznek érvényben, jelezve itt is a sikeres módosítást. | Ugyanaz, mint az Elvárt eredmény szekcióban. | Nem találtam hibára utaló jeleket. 
