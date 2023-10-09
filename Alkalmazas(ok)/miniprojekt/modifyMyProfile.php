@@ -125,9 +125,9 @@ mysqli_close($connection);
     <h2>Profil módosítása</h2>
 
     <form action="modifyMyProfile.php" method="post">
-        Felhasználónév: <input type="text" name="username" value="<?php echo $user['username']; ?>"><br>
-        E-mail: <input type="email" name="email" value="<?php echo $user['email']; ?>"><br>
-        Jelszó: <input type="password" name="password"><br>
+        Felhasználónév: <input type="text" name="username" required value="<?php echo $user['username']; ?>"><br>
+        E-mail: <input type="email" name="email" required value="<?php echo $user['email']; ?>"><br>
+        Jelszó: <input type="password" required name="password"><br>
         <input type="submit" value="Módosítás">
     </form>
     <br><br>

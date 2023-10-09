@@ -49,9 +49,9 @@ mysqli_close($connection);
 <body>
     <h1>Hír Módosítása</h1>
     <form action="modifyNews.php" method="post">
-        <input type="hidden" name="id" value="<?php echo $hir['id']; ?>">
+        <input type="hidden" name="id" required value="<?php echo $hir['id']; ?>">
         <label>Cím: </label>
-        <input type="text" name="cim" value="<?php echo $hir['cim']; ?>">
+        <input type="text" name="cim" required value="<?php echo $hir['cim']; ?>">
         <br>
         <label>Tartalom: </label>
         <textarea name="tartalom"><?php echo $hir['tartalom']; ?></textarea>
